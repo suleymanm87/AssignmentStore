@@ -1,0 +1,199 @@
+body{
+    background-color: rgb(255, 255, 255);
+    
+}
+  h1{
+    font-size: 15px;
+    text-align: center;
+    color: rgb(22, 139, 100);
+    font-family: monospace;
+}
+
+  h2{
+      text-align: center;
+      float: right;
+      font-family: fantasy;
+      font-weight: 900;
+      color: teal;
+      cursor: cell;
+}
+
+  h2:hover{
+    transition-property: color, background-color;
+    transition: width 1s;
+    color: rgb(231, 189, 0);
+    transition: 0.001s ease 0.0001s;
+    
+}
+  
+  iframe{
+    border: 2px rgb(19, 17, 17);
+    display: block;
+    height: 500px;
+    width: 800px;	
+    margin: 0vh auto;
+    margin-left: 370px;
+
+}
+  
+  .topnav {
+    overflow: hidden;
+    background-color:  rgb(255, 255, 255);
+    text-align: center;
+    font-family: fantasy;
+    border: 0.5px dashed rgb(245, 235, 235);
+    height: 25px;
+    width: 1391.9px;
+    margin: 50px; 
+    font-weight: 500;
+}
+  
+  .topnav a {
+    float: center;
+    text-align: right;
+    padding: 50px 90px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.7s ease-out 0.01s;
+
+}
+  .topnav a:hover  {
+    height: 250px;
+    width: 300px; 
+    transition: width 10s;
+    background-color: rgb(253, 238, 23);
+    color:rgb(20, 22, 2);
+    opacity: 1;
+    
+}
+  
+  .gridDisplay{
+      display: grid;
+      grid-template-rows: 100px 100px 100px 50px;
+      grid-template-columns: 175px 325px 5px ;
+      gap: 10px; 
+      margin-left: 5px;  
+      width: 600px;
+      height: 450px;      
+}
+
+.gridDisplay1{
+    display: grid;
+    grid-template-rows: 90px 50px 100px 50px;
+    grid-template-columns: 175px 295px 10px ;
+    gap: 5px; 
+  
+}
+#selection{
+      height: 20px;
+      width: 190px;
+      background-color:rgb(250, 242, 242);
+      color: rgb(151, 153, 8);
+}
+
+#textbox{
+    background-color:rgb(250, 242, 242);
+    color: rgb(205, 218, 29);
+}
+      p{
+      font-size: medium;
+      font-family: cursive;
+      padding: 15px;   
+      text-align: left;
+      margin-left: 50px;
+      margin-right: auto;
+      margin-top: auto;
+      margin-bottom: auto;
+      color: rgb(114, 134, 1);
+    
+}
+
+p.list{
+    font-size: large;
+    font-family: Arial;
+}
+
+        .homepagephoto{ 
+        height: 150px;
+        width: 230px;
+        border-radius: 20px;
+        margin: 150px;
+        margin-left: 300px;
+        cursor: pointer;
+}       
+
+        .candle{
+        height:50px;
+        width: 50px; 
+}
+
+        .soaps{
+        height:50px;
+        width: 50px;
+}
+    
+        .lotion{
+        height:50px;
+        width: 50px;
+}
+
+        .gift{
+        height:50px;
+        width: 50px;
+}
+
+        #orderbtn{
+        height:25px;
+        width: 190px; 
+        transition-property: 5s ease;
+        margin-left: 245px;
+        margin-top: 25px;
+}
+        #orderbtn:hover{
+        background-color: #302f30;
+        color: rgb(231, 231, 224);
+        transition: 0.1s ease;
+}
+        #cancelbtn{
+        height:25px;
+        width: 165px; 
+        transition-property: 5s ease 1s;
+        margin-left: 365px;
+        margin-top: 25px;
+}
+        #cancelbtn:hover{
+        background-color: #302f30;
+        color: rgb(250, 249, 236);  
+}
+
+.headerh1{
+    font-size: large;
+    text-align: center;
+    background-color: rgb(245, 237, 121);
+    color:rgb(27, 117, 0);
+    height: 20px;
+    margin-top: -5px;
+    
+      
+}
+.headerh1:hover{
+    transition: 0.7s ease-out 1s;
+    color: rgb(94, 178, 247);
+    cursor: default;
+    transition: width 10s;
+    
+}
+
+
+.footer{ 
+    font-size: medium;
+    text-align: center;
+    text-justify: inter-cluster;
+    background-color: rgb(245, 237, 121);
+    height: 55px;
+    margin-bottom: -100px;
+    
+ 
+
+}
+

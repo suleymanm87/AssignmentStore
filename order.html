@@ -1,0 +1,82 @@
+<!-- Copyright Code written by Suleyman Mulayim-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+
+    <title> Order </title>
+   
+</head>
+<body>
+    <main>
+
+    <article class="gridDisplay1">
+
+        <p>CANDLES</p>
+        <p>
+            <select name="selection" id="selection">
+            <option> &nbsp; </option>
+            <option value="Bee Kind-2 Bees Candles">Bee Kind - 2 Bees Candles</option>
+            <option value="Bee Kind-Tea Candles">Bee Kind - Tea Candles</option>
+            <option value="Bee Kind-Bee Candle">Bee Kind - Bee Candle</option>
+            <option value="Bee Kind-3 Candle Original">Bee Kind - 3 Candle Original</option>
+            </select>
+        </p>
+        <p><input type="text" id="textbox" maxlength="999">
+
+        <p>SOAPS</p>
+        <p>
+            <select name="selection" id="selection">
+                <option> &nbsp; </option>
+                <option value="Bee Kind-Honey Soap">Bee Kind - Honey Soap</option>
+                <option value="Bee Kind-Oatmeal Soap">Bee Kind - Oatmeal Milk Soap</option>
+                <option value="Bee Kind-Palm Soap">Bee Kind - Palm Free Soap</option>
+                <option value="Bee Kind-Rose Soap"> Bee Kind - Rose Soap </option>
+            </select>
+        </p>
+        <p><input type="text" id="textbox" maxlength="999"></p>
+        <p>LOTIONS</p>
+        <p>
+            <select name="selection" id="selection">
+                <option> &nbsp; </option>
+                <option value="Bee Kind-Orange Bar Lotion">Bee Kind - Orange Bar Lotion</option>
+                <option value="Bee Kind-Beeswax Lotions">Bee Kind - Beeswax Lotions</option>
+                <option value="Bee Kind-Sunflower Oil Lotion">Bee Kind - Sunflower Oil Lotion</option>
+               <option value="Bee Kind-Apple Honey Lotion"> Bee Kind - Apple Honey Lotion </option>
+            </select>
+        </p>
+        <p><input type="text" maxlength="999"></p>
+
+        <p>GIFTS</p>
+        <p>
+            <select name="selection" id="selection">
+            <option> &nbsp; </option>
+            <option value="Bee Kind-Happy Mask">Bee Kind- Happy Mask</option>
+            <option value="Bee Kind-Food Wrap">Bee Kind - Food Wrap</option>
+            <option value="Bee Kind-Candle holder">Bee Kind- Candle holder</option>
+           <option value="Bee Kind-Tips and Toes Kit"> Bee Kind-Tips and Toes Kit</option>
+        </select>
+
+            <p><input type="text" maxlength="999"></p>
+        </p>
+
+        <button id="orderbtn"  onclick="order()">Order</button>
+        <button id="cancelbtn" onclick="cancel()">Cancel</button>
+                
+    </article>
+
+    <script> 
+        function order() {
+       alert("Thank you for your business");
+     }
+     function cancel() {
+       alert("Sorry for not being able to make business with you");
+     }
+         </script>
+
+    </main>
+</body>
+
+</html>
